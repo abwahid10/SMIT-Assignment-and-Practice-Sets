@@ -1,0 +1,72 @@
+ body {
+     background: linear-gradient(45deg, rgb(107, 107, 107) 15%, rgba(5, 0, 0, 1) 47%, rgb(74, 74, 74) 86%);
+ }
+
+ * {
+    margin-top: 0;
+     font-family: serif;
+     text-align: center;
+ }
+
+ h1 {
+     background-color: aliceblue;
+     font-size: 50px;
+     color: rgb(0, 0, 0);
+     text-decoration: underline;
+     text-decoration-color: rgb(0, 0, 0);
+ }
+
+ table {
+     margin: 0;
+ }
+
+ td {
+     width: 50px;
+     height: 50px;
+     border: 1px solid #000000;
+     border-radius: 10px;
+     text-align: center;
+     vertical-align: middle;
+     font-size: 10px;
+     padding: 2px;
+ }
+.empty {
+    border: none;
+}
+
+ .alkali {
+     background: #fb2d2d;
+ }
+
+ .alkaline {
+     background: #ff9e3d;
+ }
+
+ .transition {
+     background: #ffff51;
+ }
+
+ .nonmetal {
+     background: #63ff63;
+ }
+
+ .halogen {
+     background: #51a8fe;
+ }
+
+ .noble {
+     background: #d7664c;
+ }
+
+ .metalloid {
+     background: #5649ec;
+ }
+
+ .symbol {
+     font-size: 1.25rem;
+     font-weight: bold;
+ }
+.align-left {
+    text-align: left;
+    font-size: medium;
+ }
