@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+
+.header {
+    background: linear-gradient(90deg, #0f172a, #040a24);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 50px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+}
+
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.logo span {
+    color: #38bdf8;
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 18px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 16px;
+    padding: 8px 14px;
+    transition: 0.3s;
+    border-radius: 6px;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+    background: #38bdf8;
+    color: #020617;
+}
+
+
+.button {
+    text-decoration: none;
+    background: #38bdf8;
+    color: #020617;
+    padding: 10px 22px;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: #0ea5e9;
+    color: #ffffff;
+}
+
+#aw{
+    color: #1a8fc6;
+}
+.hero {
+    height: 85vh;
+    background: linear-gradient(135deg, #020617, #0f172a);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 650px;
+    font-size: 18px;
+    color: #cbd5f5;
+    margin-bottom: 30px;
+}
+
+.hero-button {
+    text-decoration: none;
+    background: linear-gradient(90deg, #38bdf8, #0ea5e9);
+    color: #020617;
+    padding: 14px 35px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.hero-button:hover {
+    transform: scale(1.08);
+}
