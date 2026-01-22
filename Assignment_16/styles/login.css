@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 10px;
+    box-sizing: border-box;
+}  
+  body{
+    font-family:  Helvetica, Arial , sans-serif;
+    background-color: #f2f4f7;
+  }
+
+ .container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+
+
+ .leftbox{
+    width: 40%;
+ }
+  .image img {
+            justify-content: center;
+            align-items: center;
+            border: 1px solid black;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+ .leftbox h1{
+    color: #0866ff ;
+    font-family:  Helvetica;
+font-size: 65px;
+font-weight: bolder;
+ }
+  .leftbox p{
+    font-family: Helvetica;
+font-size: 25px;
+  }
+.rightbox{
+    margin: 50px;
+    background-color: #ffffff;
+    width: 400px;
+    height: 30%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+}
+.email input {
+    margin: 10px;
+    width: 95%;
+    font-size: 20px;
+ padding: 14px 16px;
+ border-radius: 5px;
+  border: 1px solid black;
+}
+
+
+.email input:hover{
+    border-color:1px #0866ff;
+}
+.passward input {
+    background-color: white;
+    font-size: 20px;
+ width: 95%;
+ padding: 14px 16px;
+ margin: 10px;
+ border: 1px solid rgb(0, 0, 0);
+ border-radius: 5px;
+}
+.passward input:focus{
+    border-style: #0866ff;
+}
+.loginbtn button{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #0866ff;
+    width: 95%;
+    padding: 14px 16px;
+    margin: 10px;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+}
+.forgot a{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #0866ff;
+    font-size: 14px;
+    text-decoration: none;
+}
+.crbtn button{
+    display: flex;
+    justify-content: center;
+    height: 48px;
+    width: 190px;
+
+    color: #ffffff;
+    font-size: 17px;
+    background-color: #42b72a;
+    padding: 14px 16px;
+    margin-left: 95px;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+}
