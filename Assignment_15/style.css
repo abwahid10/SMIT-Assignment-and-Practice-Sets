@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    height: auto;
+}
+body {
+    background-color:rgb(255, 255, 255);
+    height: auto;
+}
+.navbar ul{
+    list-style-type: none;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    font-size: 13px;
+    
+}
+a {
+    color: #000;
+    text-decoration: none;
+
+}
+.heading {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 500% ;
+
+}
+.paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#btn1 {
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: large;
+     margin: 15px;
+}
+#btn2 {
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: large; 
+}
+
+
+.img {display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    margin: 0px 50px 0px 300px;
+}
+.img2 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+.box{
+    display:flex;
+    justify-content: space-around;
+}
+.mac img{
+    margin-top: 50px;
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+}
+.pods img {
+    margin-top: 50px;
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+}
+footer { 
+    border-top-style: double ;
+      background-color:  rgb(29, 29, 31, 1);
+}
+.foot p {
+    color: rgb(191, 191, 191);
+    background-color:  rgb(29, 29, 31, 1);  
+}
+hr {
+    margin-top: 10px;
+}
+.list  {
+  display: flex;
+}
+.list ul{
+    list-style-type: none;
+      color: rgb(191, 191, 191);
+  
+}
+.hed {
+    font-size: 24px;
+}
+.list ul , li{
+    margin: 10px;
+    padding: 5px;
+}
