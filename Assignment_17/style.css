@@ -1,0 +1,163 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    width: 100% fixed;
+}
+body{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin: 0px;
+     padding: 0px;
+}
+.top {
+   
+    color: rgba(0, 0, 0, 0.579);
+    display: flex;
+     justify-content: space-between;
+background-color: rgb(241, 241, 241);
+padding: 15px;
+}
+ .top2 {
+    width: 100%;
+    height: 70px;
+    background-color: whitesmoke;
+box-shadow: rgb(38, 57, 77) 0px 20px 30px -26px;
+ }
+
+ ul{
+    padding-top: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    color: #00000095;
+    display: flex;
+     justify-content: space-around;
+     align-items: center;
+     height: 40px;
+}
+li{
+    list-style: none;
+}
+.top2 ul button {
+    border: 1px solid black;
+    color: white;
+    background-color: rgb(59, 130, 243);
+    width: 120px;
+    height: 30px;
+    border-radius: 5px; 
+    border: none;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+.container{
+    display: flex;
+}
+.left h2{
+    margin-top: 50px;
+    padding-left: 50px;
+    width: 300px;
+    height: 180px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size :27px;
+font-weight: bold;
+}
+span {
+    color: #8bc93e;
+}
+.right{
+    padding-top: 30px;
+    width: 40%;
+}
+.input-box{
+    background-color: #8bc93e;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.input-box h2 {
+    font-size: 40px;
+    color: #ffffff;
+}
+.input-box input {
+    padding-left: 10px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #8bc93e;
+    height: 50px;
+    width: 500px;
+    border-radius: 8px;
+    margin-top: 20px;
+    outline: none;
+    background: transparent;
+}
+.input-box{
+  position:relative;
+}
+.input-box input::placeholder{
+  color:#ffffff;
+}
+.input-box input:focus,
+.input-box input:hover{
+  border-color:#ffffff;
+  box-shadow:0 0 10px #ffffff;
+}
+
+.input-box button{
+    font-weight: bold;
+    margin-top: 10px;
+    color: #000;
+    background-color: #ffffff;
+    width: 515px;
+    height: 52px;
+    border: 2px solid black;
+    border-radius: 8px;
+    border-color: rgba(0, 0, 128, 0.682);
+}
+footer{
+    width: 100% fixed;
+    height: 300px;
+}
+.foot{
+   display: flex;
+   justify-content: space-between;
+    padding: 100px;
+    color: #000000;
+
+}
+#a{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+#b {
+    margin-left: 100px;
+}
+#b h2{
+    font-size: 35px;
+}
+ol li{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+#c{
+    margin-left: 100px;
+}
+#c h2{
+    font-size: 35px;
+}
+#d{
+    margin-left: 100px;
+}
+#d h2{
+    font-size: 35px;
+}
+.lastdiv {
+    margin-top: 0%;
+    display: flex;
+    font-size: 20px;
+ justify-content   : center;
+ padding-bottom: 100px;
+}
+
