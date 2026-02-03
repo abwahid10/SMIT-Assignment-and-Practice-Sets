@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>e-commerce website</title>
+  </head>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="/style/index.css">
+  <body>
+    <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Ab Wahid E Commerce</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/pages/mens.html">Mens</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/pages/women.html">Womens</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/pages/kids.html">Kids</a>
+        </li>
+       
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Catogaries
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/pages/mens.html">Mens</a></li>
+            <li><a class="dropdown-item" href="/pages/women.html">Womens</a></li>
+            <li><a class="dropdown-item" href="/pages/kids.html">Kids</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+    <button type="button" class="btn btn-outline-primary">Sign up</button>
+    <button type="button" class="btn btn-outline-primary">login</button>
+    </form>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- slider -->
+ <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/images/crousel/top-view-composition-different-traveling-elements.jpg" class="d-block w-100" alt="male">
+    </div>
+    <div class="carousel-item">
+      <img src="/images/crousel/top-female-clothing-brands-in-pakistan_orig.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/images/crousel/2_5fd32962-1679-4809-87d0-75d67809dd2d.webp" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
+<!-- cards  -->
+ <!-- Mens -->
+  <div class="top">
+ <div class="h2">
+    <h2>MENS</h2>
+  </div>
+ <div class="cardrow">
+ <div class="product-card Mens" data-price="15">
+  <div class="product-img">
+    <img src="/images/mens/download (1).jfif">
+  </div>
+  <div class="card-body">
+    <h6>Mens T-Shirts</h6>                          
+    <p class="price">$15</p>
+    <div class="d-flex gap-2">
+      <button class="btn btn-outline-primary w-50 mb-3" data-bs-toggle="modal" data-bs-target="#productModal">View</button>
+      <button class="btn btn-primary w-50 mb-3" onclick="addToCart()">Add</button>
+    </div>
+  </div>
+</div>
+<div class="product-card Mens" data-price="15">
+  <div class="product-img">
+    <img src="/images/mens/images (1).jfif" width="192">
+  </div>
+  <div class="card-body">
+    <h6>Mens Shirts</h6>                          
+    <p class="price">$15</p>
+    <div class="d-flex gap-2">
+      <button class="btn btn-outline-primary w-50 mb-3" data-bs-toggle="modal" data-bs-target="#productModal">View</button>
+      <button class="btn btn-primary w-50 mb-3" onclick="addToCart()">Add</button>
+    </div>
+  </div>
+</div>
+<div class="product-card Mens" data-price="15">
+  <div class="product-img">
+    <img src="/images/mens/images.jfif">
+  </div>
+  <div class="card-body">
+    <h6>Mens Pant</h6>                          
+    <p class="price">$15</p>
+    <div class="d-flex gap-2">
+      <button class="btn btn-outline-primary w-50 mb-3" data-bs-toggle="modal" data-bs-target="#productModal">View</button>
+      <button class="btn btn-primary w-50 mb-3" onclick="addToCart()">Add</button>
+    </div>
+  </div>
+</div>
+<div class="product-card Mens" data-price="15">
+  <div class="product-img">
+    <img src="/images/mens/images (2).jfif" width="192
+    ">
+  </div>
+  <div class="card-body">
+    <h6>Mens Jeans</h6>                          
+    <p class="price">$15</p>
+    <div class="d-flex gap-2">
+      <button class="btn btn-outline-primary w-50 mb-3" data-bs-toggle="modal" data-bs-target="#productModal">View</button>
+      <button class="btn btn-primary w-50 mb-3" onclick="addToCart()">Add</button>
+    </div>
+  </div>
+</div>
+</div>
+<div class="cardrow">
+  <div class="product-card Mens" data-price="15">
+  <div class="product-img">
+    <img src="/images/mens/21.jfif">
+  </div>
+  <div class="card-body">
+    <h6>Mens hoodie</h6>                          
+    <p class="price">$15</p>
+    <div class="d-flex gap-2">
+      <button class="btn btn-outline-primary w-50 mb-3" data-bs-toggle="modal" data-bs-target="#productModal">View</button>
+      <button class="btn btn-primary w-50 mb-3" onclick="addToCart()">Add</button>
+    </div>
+  </div>
+</div><div class="product-card Mens" data-price="15">
+  <div class="product-img">
+    <img src="/images/mens/22.jfif">
+  </div>
+  <div class="card-body">
+    <h6>Mens jacket</h6>                          
+    <p class="price">$15</p>
+    <div class="d-flex gap-2">
+      <button class="btn btn-outline-primary w-50 mb-3" data-bs-toggle="modal" data-bs-target="#productModal">View</button>
+      <button class="btn btn-primary w-50 mb-3" onclick="addToCart()">Add</button>
+    </div>
+  </div>
+</div><div class="product-card Mens" data-price="15">
+  <div class="product-img">
+    <img src="/images/mens/23.jfif">
+  </div>
+  <div class="card-body">
+    <h6>Mens Kurta Pajama</h6>                          
+    <p class="price">$15</p>
+    <div class="d-flex gap-2">
+      <button class="btn btn-outline-primary w-50 mb-3" data-bs-toggle="modal" data-bs-target="#productModal">View</button>
+      <button class="btn btn-primary w-50 mb-3" onclick="addToCart()">Add</button>
+    </div>
+  </div>
+</div><div class="product-card Mens" data-price="15">
+  <div class="product-img">
+    <img src="/images/mens/24.avif">
+  </div>
+  <div class="card-body">
+    <h6>Mens Pant Coat</h6>                          
+    <p class="price">$15</p>
+    <div class="d-flex gap-2">
+      <button class="btn btn-outline-primary w-50 mb-3" data-bs-toggle="modal" data-bs-target="#productModal">View</button>
+      <button class="btn btn-primary w-50 mb-3" onclick="addToCart()">Add</button>
+    </div>
+  </div>
+</div>
+</div>
+<div class="cardrow">
+  <div class="product-card Mens" data-price="15">
+  <div class="product-img">
+    <img src="/images/mens/25.jpg">
+  </div>
+  <div class="card-body">
+    <h6>Mens Watch</h6>                          
+    <p class="price">$15</p>
+    <div class="d-flex gap-2">
+      <button class="btn btn-outline-primary w-50 mb-3" data-bs-toggle="modal" data-bs-target="#productModal">View</button>
+      <button class="btn btn-primary w-50 mb-3" onclick="addToCart()">Add</button>
+    </div>
+  </div>
+</div>
+<div class="product-card Mens" data-price="15">
+  <div class="product-img">
+    <img src="/images/mens/27.jfif">
+  </div>
+  <div class="card-body">
+    <h6>Mens Casual shoes</h6>                          
+    <p class="price">$15</p>
+    <div class="d-flex gap-2">
+      <button class="btn btn-outline-primary w-50 mb-3" data-bs-toggle="modal" data-bs-target="#productModal">View</button>
+      <button class="btn btn-primary w-50 mb-3" onclick="addToCart()">Add</button>
+    </div>
+  </div>
+</div>
+<div class="product-card Mens" data-price="15">
+  <div class="product-img">
+    <img src="/images/mens/28.png">
+  </div>
+  <div class="card-body">
+    <h6>Mens Joggers</h6>                          
+    <p class="price">$15</p>
+    <div class="d-flex gap-2">
+      <button class="btn btn-outline-primary w-50 mb-3" data-bs-toggle="modal" data-bs-target="#productModal">View</button>
+      <button class="btn btn-primary w-50 mb-3" onclick="addToCart()">Add</button>
+    </div>
+  </div>
+</div>
+<div class="product-card Mens" data-price="15">
+  <div class="product-img">
+    <img src="/images/mens/29.avif">
+  </div>
+  <div class="card-body">
+    <h6>Mens glasses</h6>                          
+    <p class="price">$15</p>
+    <div class="d-flex gap-2">
+      <button class="btn btn-outline-primary w-50 mb-3" data-bs-toggle="modal" data-bs-target="#productModal">View</button>
+      <button class="btn btn-primary w-50 mb-3" onclick="addToCart()">Add</button>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<hr>
+<!-- Womens -->
+<div class="cente">
+  <div class="h2">
+    <h2>WOMENS</h2>
+  </div>
+   <div class="cardrow">
+ <div class="product-card Mens" data-price="15">
+  <div class="product-img">
+    <img src="/images/womens/wcw.avif">
+  </div>
+  <div class="card-body">
+    <h6>Womens Casual dress</h6>                          
+    <p class="price">$15</p>
+    <div class="d-flex gap-2">
+      <button class="btn btn-outline-primary w-50 mb-3" data-bs-toggle="modal" data-bs-target="#productModal">View</button>
+      <button class="btn btn-primary w-50 mb-3" onclick="addToCart()">Add</button>
+    </div>
+  </div>
+</div>
+<div class="product-card Mens" data-price="15">
+  <div class="product-img">
+    <img src="/images/womens/wwt.avif" width="192">
+  </div>
+  <div class="card-body">
+    <h6>Womens Western Top</h6>                          
+    <p class="price">$15</p>
+    <div class="d-flex gap-2">
+      <button class="btn btn-outline-primary w-50 mb-3" data-bs-toggle="modal" data-bs-target="#productModal">View</button>
+      <button class="btn btn-primary w-50 mb-3" onclick="addToCart()">Add</button>
+    </div>
+  </div>
+</div>
+<div class="product-card Mens" data-price="15">
+  <div class="product-img">
+    <img src="images/womens/w3.jfif">
+  </div>
+  <div class="card-body">
+    <h6>Womens Pant</h6>                          
+    <p class="price">$15</p>
+    <div class="d-flex gap-2">
+      <button class="btn btn-outline-primary w-50 mb-3" data-bs-toggle="modal" data-bs-target="#productModal">View</button>
+      <button class="btn btn-primary w-50 mb-3" onclick="addToCart()">Add</button>
+    </div>
+  </div>
+</div>
+<div class="product-card Mens" data-price="15">
+  <div class="product-img">
+    <img src="/images/womens/w4.avif" width="192
+    ">
+  </div>
+  <div class="card-body">
+    <h6>Womens Kameez Salwar</h6>                          
+    <p class="price">$15</p>
+    <div class="d-flex gap-2">
+      <button class="btn btn-outline-primary w-50 mb-3" data-bs-toggle="modal" data-bs-target="#productModal">View</button>
+      <button class="btn btn-primary w-50 mb-3" onclick="addToCart()">Add</button>
+    </div>
+  </div>
+</div>
+</div>
+<div class="cardrow">
+  <div class="product-card Mens" data-price="15">
+  <div class="product-img">
+    <img src="/images/womens/wz.avif">
+  </div>
+  <div class="card-body">
+    <h6>Womens Zipper hoodie</h6>                          
+    <p class="price">$15</p>
+    <div class="d-flex gap-2">
+      <button class="btn btn-outline-primary w-50 mb-3" data-bs-toggle="modal" data-bs-target="#productModal">View</button>
+      <button class="btn btn-primary w-50 mb-3" onclick="addToCart()">Add</button>
+    </div>
+  </div>
+</div><div class="product-card Mens" data-price="15">
+  <div class="product-img">
+    <img src="/images/womens/15.webp">
+  </div>
+  <div class="card-body">
+    <h6>Womens Switer</h6>                          
+    <p class="price">$15</p>
+    <div class="d-flex gap-2">
+      <button class="btn btn-outline-primary w-50 mb-3" data-bs-toggle="modal" data-bs-target="#productModal">View</button>
+      <button class="btn btn-primary w-50 mb-3" onclick="addToCart()">Add</button>
+    </div>
+  </div>
+</div><div class="product-card Mens" data-price="15">
+  <div class="product-img">
+    <img src="/images/womens/ws5.avif">
+  </div>
+  <div class="card-body">
+    <h6>Womens Swiest Shirt</h6>                          
+    <p class="price">$15</p>
+    <div class="d-flex gap-2">
+      <button class="btn btn-outline-primary w-50 mb-3" data-bs-toggle="modal" data-bs-target="#productModal">View</button>
+      <button class="btn btn-primary w-50 mb-3" onclick="addToCart()">Add</button>
+    </div>
+  </div>
+</div><div class="product-card Mens" data-price="15">
+  <div class="product-img">
+    <img src="/images/womens/wbag.avif">
+  </div>
+  <div class="card-body">
+    <h6>Womens clutches</h6>                          
+    <p class="price">$15</p>
+    <div class="d-flex gap-2">
+      <button class="btn btn-outline-primary w-50 mb-3" data-bs-toggle="modal" data-bs-target="#productModal">View</button>
+      <button class="btn btn-primary w-50 mb-3" onclick="addToCart()">Add</button>
+    </div>
+  </div>
+</div>
+</div>
+<div class="cardrow">
+  <div class="product-card Mens" data-price="15">
+  <div class="product-img">
+    <img src="/images/womens/ww.avif">
+  </div>
+  <div class="card-body">
+    <h6>Womens Watch</h6>                          
+    <p class="price">$15</p>
+    <div class="d-flex gap-2">
+      <button class="btn btn-outline-primary w-50 mb-3" data-bs-toggle="modal" data-bs-target="#productModal">View</button>
+      <button class="btn btn-primary w-50 mb-3" onclick="addToCart()">Add</button>
+    </div>
+  </div>
+</div>
+<div class="product-card Mens" data-price="15">
+  <div class="product-img">
+    <img src="/images/womens/wshoe.avif">
+  </div>
+  <div class="card-body">
+    <h6>Womens Casual shoes</h6>                          
+    <p class="price">$15</p>
+    <div class="d-flex gap-2">
+      <button class="btn btn-outline-primary w-50 mb-3" data-bs-toggle="modal" data-bs-target="#productModal">View</button>
+      <button class="btn btn-primary w-50 mb-3" onclick="addToCart()">Add</button>
+    </div>
+  </div>
+</div>
+<div class="product-card Mens" data-price="15">
+  <div class="product-img">
+    <img src="/images/womens/wb.avif">
+  </div>
+  <div class="card-body">
+    <h6>Womens bracelets</h6>                          
+    <p class="price">$15</p>
+    <div class="d-flex gap-2">
+      <button class="btn btn-outline-primary w-50 mb-3" data-bs-toggle="modal" data-bs-target="#productModal">View</button>
+      <button class="btn btn-primary w-50 mb-3" onclick="addToCart()">Add</button>
+    </div>
+  </div>
+</div>
+<div class="product-card Mens" data-price="15">
+  <div class="product-img">
+    <img src="/images/womens/glass.avif">
+  </div>
+  <div class="card-body">
+    <h6>Womens glasses</h6>                          
+    <p class="price">$15</p>
+    <div class="d-flex gap-2">
+      <button class="btn btn-outline-primary w-50 mb-3" data-bs-toggle="modal" data-bs-target="#productModal">View</button>
+      <button class="btn btn-primary w-50 mb-3" onclick="addToCart()">Add</button>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<hr>
+<!-- Kids -->
+<div class="end">
+<div class="h2">
+  <h2>
+    KIDS
+  </h2>
+</div>
+  <div class="cardrow">
+ <div class="product-card Mens" data-price="15">
+  <div class="product-img">
+    <img src="/images/kids/sp.avif">
+  </div>
+  <div class="card-body">
+    <h6>Shirt Pajama</h6>                          
+    <p class="price">$15</p>
+    <div class="d-flex gap-2">
+      <button class="btn btn-outline-primary w-50 mb-3" data-bs-toggle="modal" data-bs-target="#productModal">View</button>
+      <button class="btn btn-primary w-50 mb-3" onclick="addToCart()">Add</button>
+    </div>
+  </div>
+</div>
+<div class="product-card Mens" data-price="15">
+  <div class="product-img">
+    <img src="/images/kids/tn.avif" width="192">
+  </div>
+  <div class="card-body">
+    <h6>T-shirt Niker</h6>                          
+    <p class="price">$15</p>
+    <div class="d-flex gap-2">
+      <button class="btn btn-outline-primary w-50 mb-3" data-bs-toggle="modal" data-bs-target="#productModal">View</button>
+      <button class="btn btn-primary w-50 mb-3" onclick="addToCart()">Add</button>
+    </div>
+  </div>
+</div>
+<div class="product-card Mens" data-price="15">
+  <div class="product-img">
+    <img src="images/kids/bb.avif">
+  </div>
+  <div class="card-body">
+    <h6>Baby shirt Trouser</h6>                          
+    <p class="price">$15</p>
+    <div class="d-flex gap-2">
+      <button class="btn btn-outline-primary w-50 mb-3" data-bs-toggle="modal" data-bs-target="#productModal">View</button>
+      <button class="btn btn-primary w-50 mb-3" onclick="addToCart()">Add</button>
+    </div>
+  </div>
+</div>
+<div class="product-card Mens" data-price="15">
+  <div class="product-img">
+    <img src="/images/kids/bf.avif" width="192
+    ">
+  </div>
+  <div class="card-body">
+    <h6>Baby Frocks</h6>                          
+    <p class="price">$15</p>
+    <div class="d-flex gap-2">
+      <button class="btn btn-outline-primary w-50 mb-3" data-bs-toggle="modal" data-bs-target="#productModal">View</button>
+      <button class="btn btn-primary w-50 mb-3" onclick="addToCart()">Add</button>
+    </div>
+  </div>
+</div>
+</div>
+<div class="cardrow">
+  <div class="product-card Mens" data-price="15">
+  <div class="product-img">
+    <img src="/images/kids/kzh0.avif">
+  </div>
+  <div class="card-body">
+    <h6>Kids Zipper hoodie</h6>                          
+    <p class="price">$15</p>
+    <div class="d-flex gap-2">
+      <button class="btn btn-outline-primary w-50 mb-3" data-bs-toggle="modal" data-bs-target="#productModal">View</button>
+      <button class="btn btn-primary w-50 mb-3" onclick="addToCart()">Add</button>
+    </div>
+  </div>
+</div><div class="product-card Mens" data-price="15">
+  <div class="product-img">
+    <img src="/images/kids/mk.avif">
+  </div>
+  <div class="card-body">
+    <h6>Womens Makeup Kit</h6>                          
+    <p class="price">$15</p>
+    <div class="d-flex gap-2">
+      <button class="btn btn-outline-primary w-50 mb-3" data-bs-toggle="modal" data-bs-target="#productModal">View</button>
+      <button class="btn btn-primary w-50 mb-3" onclick="addToCart()">Add</button>
+    </div>
+  </div>
+</div><div class="product-card Mens" data-price="15">
+  <div class="product-img">
+    <img src="/images/kids/kst.avif">
+  </div>
+  <div class="card-body">
+    <h6>Baby Shirts Trouser</h6>                          
+    <p class="price">$15</p>
+    <div class="d-flex gap-2">
+      <button class="btn btn-outline-primary w-50 mb-3" data-bs-toggle="modal" data-bs-target="#productModal">View</button>
+      <button class="btn btn-primary w-50 mb-3" onclick="addToCart()">Add</button>
+    </div>
+  </div>
+</div><div class="product-card Mens" data-price="15">
+  <div class="product-img">
+    <img src="/images/kids/smg.avif">
+  </div>
+  <div class="card-body">
+    <h6>kids Bags</h6>                          
+    <p class="price">$15</p>
+    <div class="d-flex gap-2">
+      <button class="btn btn-outline-primary w-50 mb-3" data-bs-toggle="modal" data-bs-target="#productModal">View</button>
+      <button class="btn btn-primary w-50 mb-3" onclick="addToCart()">Add</button>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<footer class="site-footer">
+  <div class="footer-container">
+
+    <div class="footer-col">
+      <h3>Kids</h3>
+      <ul>
+        <li><a href="#">T-Shirts</a></li>
+        <li><a href="#">Toys</a></li>
+        <li><a href="#">School Bags</a></li>
+        <li><a href="#">Shoes</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3>Men</h3>
+      <ul>
+        <li><a href="#">Shirts</a></li>
+        <li><a href="#">Jeans</a></li>
+        <li><a href="#">Watches</a></li>
+        <li><a href="#">Shoes</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3>Women</h3>
+      <ul>
+        <li><a href="#">Dresses</a></li>
+        <li><a href="#">Handbags</a></li>
+        <li><a href="#">Jewelry</a></li>
+        <li><a href="#">Makeup</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3>Follow Us</h3>
+      <div class="social-links">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">WhatsApp</a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+ <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"
+  ></script>
+  </body>
+</html>
