@@ -1,0 +1,386 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+     font-family:  Helvetica;
+    background-color: #f2f4f7;
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logobox > img{
+    height: 100px;
+    width: 300px;
+}
+.signupbox{
+    width: 420px;
+    background-color:#ffffff ;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 10px;
+    padding: 0px 20px;
+    margin-bottom: 50px;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.top h2{
+    margin-top: 10px;
+}
+ p {
+    margin-top: 10px;
+    color: gray;
+    font-size: 14px;
+ }
+ hr{
+    margin-top: 10px;
+ }
+ .inputbox{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+ }
+.firstname input {
+    padding-left: 10px;
+     width: 180px;
+    border: 1px solid gray;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+  .surname input {
+    padding-left: 10px;
+    width: 180px;
+    border: 1px solid gray;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 15px; 
+  }
+  .dmy {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+   .date select{
+    padding-left:10px;
+     height: 40px;
+    font-size: 15px;
+    width: 120px;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+.month select{
+    padding-left:10px;
+     height: 40px;
+     font-size: 15px;
+    width: 120px;
+    border: 1px solid gray;
+     border-radius: 5px;
+}
+.year select{
+    padding-left:10px;
+    height: 40px;
+     font-size: 15px;
+    width: 120px;
+    border: 1px solid gray;
+     border-radius: 5px;
+}
+.mfo {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.male ,.female ,.others{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    border: 1px solid gray;
+    height: 40px;
+    width: 120px;
+     border-radius: 5px;
+     padding-right: 10px;
+}
+.email input{
+    height: 40px;
+     border: 1px solid gray;
+     padding-left:10px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.passward input{
+    height: 40px;
+     padding-left:10px;
+     margin-top: 10px;
+    width: 100%;
+     border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.logic p{
+    font-size: 12px;
+}
+.logic p> a{
+    text-decoration: none;
+    color: #0866ff;
+}
+.logic p> a:hover{
+    text-decoration: underline;
+}
+    
+.signbtn button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 190px;
+    color: #ffffff;
+    font-size: 17px;
+    background-color: #00a400;
+    padding: 14px 16px;
+    margin-left: 95px;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+}
+.signbtn button:hover{
+    color: rgb(227, 227, 227);
+    background-color: #34b719;
+}
+.account a{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #0866ff;
+    font-size: 14px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+footer{
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+footer > hr{
+    margin:50px 0px;
+}
+.foot {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+}
+.foot a{
+    color: gray;
+    font-size: 12px;
+    gap: 10px;
+    text-decoration: none;
+}
+@media only screen and (max-width:500px) {
+    
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    .logobox > img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    height: 60px;
+    width: 300px;
+}
+
+.signupbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    background-color:#ffffff ;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 10px;
+    padding: 0px 20px;
+    margin-bottom: 50px;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.top h2{
+    margin-top: 10px;
+}
+ p {
+    margin-top: 10px;
+    color: gray;
+    font-size: 14px;
+ }
+ hr{
+    margin-top: 10px;
+ }
+ .inputbox{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+ }
+.firstname input {
+    padding-left: 10px;
+     width: 180px;
+    border: 1px solid gray;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+  .surname input {
+    padding-left: 10px;
+    width: 180px;
+    border: 1px solid gray;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 15px; 
+  }
+  .dmy {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+   .date select{
+    padding-left:10px;
+     height: 40px;
+    font-size: 15px;
+    width: 120px;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+.month select{
+    padding-left:10px;
+     height: 40px;
+     font-size: 15px;
+    width: 120px;
+    border: 1px solid gray;
+     border-radius: 5px;
+}
+.year select{
+    padding-left:10px;
+    height: 40px;
+     font-size: 15px;
+    width: 120px;
+    border: 1px solid gray;
+     border-radius: 5px;
+}
+.mfo {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.male ,.female ,.others{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    border: 1px solid gray;
+    height: 40px;
+    width: 120px;
+     border-radius: 5px;
+     padding-right: 10px;
+}
+.email input{
+    height: 40px;
+     border: 1px solid gray;
+     padding-left:10px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.passward input{
+    height: 40px;
+     padding-left:10px;
+     margin-top: 10px;
+    width: 100%;
+     border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.logic p{
+    font-size: 12px;
+}
+.logic p> a{
+    text-decoration: none;
+    color: #0866ff;
+}
+.logic p> a:hover{
+    text-decoration: underline;
+}
+    
+.signbtn button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 190px;
+    color: #ffffff;
+    font-size: 17px;
+    background-color: #00a400;
+    padding: 14px 16px;
+    margin-left: 95px;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+}
+.signbtn button:hover{
+    color: rgb(227, 227, 227);
+    background-color: #34b719;
+}
+.account a{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #0866ff;
+    font-size: 14px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+footer{
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+footer > hr{
+    margin:50px 0px;
+}
+.foot {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+}
+.foot a{
+    color: gray;
+    font-size: 12px;
+    gap: 10px;
+    text-decoration: none;
+}
+}
