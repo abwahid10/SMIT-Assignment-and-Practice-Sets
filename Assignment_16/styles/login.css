@@ -18,22 +18,21 @@
  .leftbox{
     width: 40%;
  }
-  .image img {
-            justify-content: center;
-            align-items: center;
-            border: 1px solid black;
-            border-radius: 50%;
-            object-fit: cover;
+  .fimg img {
+    height: 106px;
+    width: 350px;
+    margin-bottom: 0px;  
+    padding-left:  0px ;  
+    margin-left: 0%; 
+    object-fit: cover;      
         }
- .leftbox h1{
-    color: #0866ff ;
-    font-family:  Helvetica;
-font-size: 65px;
-font-weight: bolder;
- }
+ 
   .leftbox p{
+    margin-top: 0px;
     font-family: Helvetica;
 font-size: 25px;
+font-weight: 500;
+width: 440px;
   }
 .rightbox{
     margin: 50px;
@@ -50,12 +49,12 @@ font-size: 25px;
  padding: 14px 16px;
  border-radius: 5px;
   border: 1px solid black;
+  outline: none;
+}
+.email input:focus {
+      border-color: #0866ff;
 }
 
-
-.email input:hover{
-    border-color:1px #0866ff;
-}
 .passward input {
     background-color: white;
     font-size: 20px;
@@ -64,10 +63,12 @@ font-size: 25px;
  margin: 10px;
  border: 1px solid rgb(0, 0, 0);
  border-radius: 5px;
+ outline: none;
 }
 .passward input:focus{
-    border-style: #0866ff;
+     border-color: #0866ff;
 }
+
 .loginbtn button{
     color: #ffffff;
     font-size: 20px;
@@ -80,6 +81,10 @@ border-radius: 5px;
 border: none;
 cursor: pointer;
 }
+.loginbtn button:hover{
+    background-color:  #0f7bff;
+}
+
 .forgot a{
     display: flex;
     justify-content: center;
@@ -88,7 +93,10 @@ cursor: pointer;
     font-size: 14px;
     text-decoration: none;
 }
-.crbtn button{
+.forgot a:hover{
+    text-decoration: underline;
+}
+.cra a{
     display: flex;
     justify-content: center;
     height: 48px;
@@ -102,4 +110,43 @@ cursor: pointer;
 border-radius: 5px;
 border: none;
 cursor: pointer;
+text-decoration: none;
+}
+.cra a:hover{
+    background-color: #168200;
+}
+.cotaint {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 110px;
+    font-size: 14px;
+}
+.cotaint a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin-top: 0px;
+    font-weight: 600;
+}
+footer{
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+footer > hr{
+    margin:50px 0px;
+}
+.foot {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+.foot a{
+    color: gray;
+    font-size: 12px;
+    text-decoration: none;
 }
